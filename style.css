@@ -1,0 +1,80 @@
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+#teacherDayHeading {
+    animation: blink 1s infinite;
+    font-family: 'Times New Roman', Times, serif; /* Formal font */
+    font-weight: bold; /* Bold text */
+    text-shadow: 2px 2px 4px #000000; /* Subtle shadow for depth */
+}
+
+#element {
+    float: right; /* Float the image to the right */
+    width: 800px; /* Set the width of the image */
+    height: auto; /* Maintain the aspect ratio */
+    margin: 40px; /* Add some margin around the image */
+    border: 1px solid black; /* Add a border around the image */
+    border-radius: 10px; /* Round the corners of the border */
+
+}
+
+
+#element1, #element2 {
+    float: left;
+    width: 200px; /* Set the width of the images */
+    height: auto; /* Maintain the aspect ratio */
+    margin: 20px; /* Add some margin around the images */
+    border: 1px solid black; /* Add a border around the images */
+    border-radius: 10px; /* Round the corners of the border */
+
+}
+
+
+.group-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#ltn {
+    width: 54%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+#ltn caption {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: darkslateblue;/*lightbule*/
+}
+
+#ltn th {
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 10px;
+    border: 10px solid #ddd;
+}
+
+#ltn tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#ltn tr:hover {
+    background-color: #f1f1f1;
+}
+
+#ltn th, #ltn td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
